@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!-- <title>Fetch Repositories</title> -->
+    <title>Hangman games </title>
+    <link rel="icon" type="image/png" sizes="32x32" href="image/تنزيل (1).png">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- <div class="repos-container">
+        <div class="get-repos">
+            <input type="text" placeholder="github Username">
+            <span class="get-button">Get repos</span>
+        </div>
+        <div class="data-show">
+            <span>no data to show</span>
+        </div>
+    </div> -->
+
+    <div class="container">
+        <div class="game-info">
+            <div class="game-name">Hangman</div>
+            <div class="category">
+                Word Form: <span></span>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="hangman-draw">
+                <div class="the-draw">
+                    <div class="the-stand"></div>
+                    <div class="the-hang"></div>
+                    <div class="the-rope"></div>
+                    <div class="the-man">
+                        <div class="head"></div>
+                        <div class="body"></div>
+                        <div class="hands"></div>
+                        <div class="legs"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="letters">
+
+            </div>
+        </div>
+        <hr>
+        <div class="letters-guess">
+
+        </div>
+    </div>
+
+    <audio src="sound/success-1_6297.mp3" id="success" preload="auto"></audio>
+    <audio src="sound/negative_beeps_6008.mp3" id="fail" preload="auto"></audio>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="style.js"></script>
+</body>
+</html>
